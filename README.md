@@ -23,11 +23,11 @@ most important part. Add your answer to this markdown file.
 
 ### My Answer
 
-The best case of this implementation would be if the inputted array was already sorted, as the program would only have to iterate through the number of elements to check that they're in order. That would make it a time complexity of $/Theta(n)$. 
+The best case of this implementation would be if the inputted array was already sorted, as the program would only have to iterate through the number of elements to check that they're in order. That would make it a time complexity of $\Theta(n)$. 
 
-The worst case of this implementation would require the program to search through every possible permutation of the array, n!, and checking that each of them is sorted, n. That would make it a time complexity of $/Theta(n*n!)$. 
+The worst case of this implementation would require the program to search through every possible permutation of the array, n!, and checking that each of them is sorted, n. That would make it a time complexity of $\Theta(n*n!)$. 
 
-Creating permutations based on randomness, without tracking which permutations have already been tried becuase that would require memory, could potentially never end. The best case would remain the same as generating permutations systematically, that the input is already sorted and the program only has to check, so $/Theta(n)$. The worst case would be that the program never finds the sorted solution, as there is no guarantee that you could randomly guess the sorted array. 
+Creating permutations based on randomness, without tracking which permutations have already been tried becuase that would require memory, could potentially never end. The best case would remain the same as generating permutations systematically, that the input is already sorted and the program only has to check, so $\Theta(n)$. The worst case would be that the program never finds the sorted solution, as there is no guarantee that you could randomly guess the sorted array. 
 
 ### Sources and Plagiarism
 
