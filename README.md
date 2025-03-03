@@ -23,6 +23,7 @@ most important part. Add your answer to this markdown file.
 
 ### My Answer
 
+
 The best case of this implementation would be if the inputted array was already sorted, as the program would only have to iterate through the number of elements to check that they're in order. That would make it a time complexity of $\Theta(n)$. 
 
 The worst case of this implementation would require the program to search through every possible permutation of the array, n!, and checking that each of them is sorted, n. That would make it a time complexity of $\Theta(n*n!)$. 
