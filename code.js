@@ -42,5 +42,3 @@ function swap(a, first, second) {
     a[first] = a[second]; 
     a[second] = temp; 
 }
-
-console.log(permutationSort([6, 32, 9, 4, 2, 1, 63])); 
